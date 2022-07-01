@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from I4G011631AAD.links.serializer import LinkSerializer
+from links.serializer import LinkSerializer
 from .models import Link
 from .serializer import LinkSerializer
 from rest_framework.generics import ListAPIView
